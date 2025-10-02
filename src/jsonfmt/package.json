@@ -6,11 +6,5 @@
     "Maintainer": "ourgal",
     "Homepage": "https://github.com/caarlos0/jsonfmt",
     "Description": ["Like gofmt, but for JSON files."]
-  },
-  "deb_dir": "../../input",
-  "data_files": {
-    "bin/jsonfmt": {
-      "source": "result/bin/jsonfmt"
-    }
   }
 }

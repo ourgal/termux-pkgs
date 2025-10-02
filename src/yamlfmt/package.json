@@ -8,11 +8,5 @@
     "Description": [
       "An extensible command line tool or library to format yaml files."
     ]
-  },
-  "deb_dir": "../../input",
-  "data_files": {
-    "bin/yamlfmt": {
-      "source": "result/bin/yamlfmt"
-    }
   }
 }

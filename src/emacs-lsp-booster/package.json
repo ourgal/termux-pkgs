@@ -6,11 +6,5 @@
     "Maintainer": "ourgal",
     "Homepage": "https://github.com/blahgeek/emacs-lsp-booster",
     "Description": ["Emacs LSP performance booster"]
-  },
-  "deb_dir": "../../input",
-  "data_files": {
-    "bin/emacs-lsp-booster": {
-      "source": "result/bin/emacs-lsp-booster"
-    }
   }
 }
