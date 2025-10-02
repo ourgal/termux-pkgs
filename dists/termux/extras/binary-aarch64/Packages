@@ -16,15 +16,15 @@ Package: jsonfmt
 Version: 0.5.1
 Architecture: aarch64
 Maintainer: ourgal
-Installed-Size: 6066
+Installed-Size: 3965
 Homepage: https://github.com/caarlos0/jsonfmt
 Description: Like gofmt, but for JSON files.
 Filename: dists/termux/extras/binary-aarch64/jsonfmt_0.5.1_aarch64.deb
-Size: 2588212
-MD5Sum: 3fc5555bea495ea701a95fd56a9b87bf
-SHA1: f90ea814a9f2b5a26ab813910a1e2ce066416e93
-SHA256: fa86eee906718252a6a35ff707fffdf27818547163bb325720095e222f73abbe
-SHA512: ed2b99eb48f29e441794ba42c8840da3e8710eb59cc51d78e64c0e09a9d6ba0d33e60e9ea05e5835697fbc5bf6b1d159b84890d824c8da56f87739bf6dd026f9
+Size: 1169480
+MD5Sum: e056fbf25033064b20275d7323374a27
+SHA1: 77cd24c7e5522549c1065e1ac35bc50fd6d1b692
+SHA256: 278c5eb14a918a34f82269233c343b486f8f773486b4577544993127a1510e4d
+SHA512: 644d59a52eca45e0e10bd5a03766d3270efc887a1aa87c4ac38a80a8aa9fb5a64404d2306ea937cc869ccf120541a05de9ae8fd59d566065e767fb50957ceab2
 
 Package: yamlfmt
 Version: 0.17.2
