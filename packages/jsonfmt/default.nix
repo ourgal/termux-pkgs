@@ -1,12 +1,11 @@
 {
   lib,
-  buildGoModule,
   fetchFromGitHub,
-  testers,
-  jsonfmt,
+  pkgs,
+  ...
 }:
 
-buildGoModule rec {
+pkgs.pkgsStatic.buildGoModule rec {
   pname = "jsonfmt";
   version = "0.5.1";
 
@@ -29,10 +28,6 @@ buildGoModule rec {
       "-linkmode external"
       ''-extldflags "-static"''
     ];
-
-  passthru.tests = {
-    version = testers.testVersion { package = jsonfmt; };
-  };
 
   meta = with lib; {
     description = "Formatter for JSON files";

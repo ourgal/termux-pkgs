@@ -1,12 +1,7 @@
 # This file has been autogenerate with cabal2nix.
 # Update via ./update.sh
-{
-  mkDerivation,
-  pkgs,
-  lib,
-  ...
-}:
-mkDerivation {
+{ pkgs, lib, ... }:
+pkgs.pkgsStatic.haskellPackages.mkDerivation {
   pname = "nixfmt";
   version = "1.0.0";
   src = pkgs.fetchzip {
@@ -46,7 +41,6 @@ mkDerivation {
         dontDisableStatic = true;
       })
     }/lib"
-    "-fexternal-interpreter"
   ];
   enableSharedExecutables = false;
   enableSharedLibraries = false;

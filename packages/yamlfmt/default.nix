@@ -1,11 +1,12 @@
 {
   lib,
-  buildGoModule,
   fetchFromGitHub,
   versionCheckHook,
+  pkgs,
+  ...
 }:
 
-buildGoModule (finalAttrs: {
+pkgs.pkgsStatic.buildGoModule (finalAttrs: {
   pname = "yamlfmt";
   version = "0.17.2";
 
