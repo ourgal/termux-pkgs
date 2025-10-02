@@ -6,9 +6,9 @@ Installed-Size: 1950
 Homepage: https://github.com/blahgeek/emacs-lsp-booster
 Description: Emacs LSP performance booster
 Filename: dists/termux/extras/binary-aarch64/emacs-lsp-booster_0.2.1_aarch64.deb
-Size: 523040
-MD5Sum: 48eb0d5d347a8bda7174b4a74bd67771
-SHA1: 6e35c03cdad9993d3692b2b6fc38e762f99e4c53
-SHA256: ff067c13959acf24d7cc4f59569a3ad2b52e33be619153671f7c7f7e168c9a45
-SHA512: 6458fbf019770ef08364216b75e120e46a83bf9d14ba839c59380b017ddd413ad99625d3c12ed1897a637c4417326c39df096a67270c16b5c48a9ff26dde1d63
+Size: 523336
+MD5Sum: 20622978f1bdfcfca74ddf1f64fa2df9
+SHA1: 87d7bb11a6b08ba8f89073d99dcab953fabde94e
+SHA256: 1b33cab77e6ea2c7711db6dc42b82a3cee688abf041f16829c82d0c0c38564a7
+SHA512: 7177b8855c03dd66a0cfa8f2b8b23e46b60af4803c729eafe979f788890312070b0320ea3c40e248c04a414ea6b2f16ef1797cae091071f9505a69c4b5276a45
 
