@@ -14,14 +14,17 @@ jobs:
       - uses: actions/checkout@v4
       - uses: DeterminateSystems/nix-installer-action@main
       - uses: DeterminateSystems/magic-nix-cache-action@main
-      - name: Set up python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
+      - name: Install termux packages
+        uses: insightsengineering/pip-action@v2
         with:
-          python-version: 3.x
-      - name: Install termux-create-package
-        run: pip3 install termux-create-package
-      - name: Install termux-apt-repo
-        run: pip3 install termux-apt-repo
+          packages: |
+            termux-create-packages
+            termux-apt-repo
+      - name: Install packages
+      - uses: amitie10g/install-package@v1
+        with:
+          apt: jq moreutils
       - name: Build packages and deploy to pages
         run: make
       - name: Deploy
