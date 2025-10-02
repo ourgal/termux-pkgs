@@ -21,8 +21,8 @@ jobs:
         run: pip3 install termux-create-package
       - name: Install termux-apt-repo
         run: pip3 install termux-apt-repo
-      - name: Build jsonfmt
-        run: make jsonfmt
+      - name: Build yamlfmt
+        run: make yamlfmt
       - name: Create repo
         run: make create-repo
       - name: Deploy

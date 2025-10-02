@@ -1,14 +1,7 @@
-VERSION := 0.17.2
+all: build create-package
 
-all: install create-package clean
-
-install:
-	curl -o package.tar.gz -L https://github.com/google/yamlfmt/releases/download/v$(VERSION)/yamlfmt_$(VERSION)_Linux_arm64.tar.gz
-	tar -zxvf temp.tar.gz yamlfmt
+build:
+	nix-build -E 'with import <nixpkgs> {}; pkgsCross.aarch64-multiplatform.pkgsStatic.callPackage ./default.nix {}'
 
 create-package:
 	termux-create-package package.json
-
-clean:
-	rm yamlfmt temp.tar.gz
-

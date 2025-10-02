@@ -5,3 +5,6 @@ create-repo:
 
 jsonfmt:
 	make -C src/jsonfmt/
+
+yamlfmt:
+	make -C src/yamlfmt/
