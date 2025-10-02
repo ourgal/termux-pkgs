@@ -1,0 +1,25 @@
+---
+name: Deploy
+on:
+  workflow_dispatch:  # allows manual triggering
+jobs:
+  gh-pages:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Install termux-apt-repo
+        run: pip3 install termux-apt-repo
+      - name: Create repo
+        run: termux-apt-repo input output
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
