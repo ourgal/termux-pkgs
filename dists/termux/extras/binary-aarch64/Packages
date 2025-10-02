@@ -2,27 +2,13 @@ Package: emacs-lsp-booster
 Version: 0.2.1
 Architecture: aarch64
 Maintainer: ourgal
-Installed-Size: 1950
+Installed-Size: 1925
 Homepage: https://github.com/blahgeek/emacs-lsp-booster
 Description: Emacs LSP performance booster
 Filename: dists/termux/extras/binary-aarch64/emacs-lsp-booster_0.2.1_aarch64.deb
-Size: 523336
-MD5Sum: 20622978f1bdfcfca74ddf1f64fa2df9
-SHA1: 87d7bb11a6b08ba8f89073d99dcab953fabde94e
-SHA256: 1b33cab77e6ea2c7711db6dc42b82a3cee688abf041f16829c82d0c0c38564a7
-SHA512: 7177b8855c03dd66a0cfa8f2b8b23e46b60af4803c729eafe979f788890312070b0320ea3c40e248c04a414ea6b2f16ef1797cae091071f9505a69c4b5276a45
-
-Package: yamlfmt
-Version: 0.17.2
-Architecture: aarch64
-Maintainer: ourgal
-Installed-Size: 4171
-Homepage: https://github.com/google/yamlfmt
-Description: An extensible command line tool or library to format yaml files.
-Filename: dists/termux/extras/binary-aarch64/yamlfmt_0.17.2_aarch64.deb
-Size: 1255284
-MD5Sum: 0235f01825930fe76ffbe2ecfe27b75b
-SHA1: cea30f43a40781bb088ea6aef0f01b39a6490ef7
-SHA256: 744ee417f97f24c55766f4d197663a64d38c74f46c4b570cff94742790ab0880
-SHA512: 04f56cbb41cdd738d94d4692d5baf9b65a67b9b84ea194d883f6d50a09c7df5527a9465ba6e0cb3fb8115c839e98e02a4e72731990eaeabcc90f0d8642b3f96a
+Size: 551992
+MD5Sum: 9ddd1a893272449db7e5cbb3a891d56f
+SHA1: 739561b6c77b21532d074a9d770c167bae9db4cd
+SHA256: ca51d61cc974443cd920be5724e35c3ea54a083301fc5caa53be3581690a5715
+SHA512: 7f3a54395559031e98aaf2274e45dac818cf0b280160f287432737a76178fe3a3f821a277c18d950ccecf9ea591e404a17d549fe08972598895f1de0e22bdd0d
 
