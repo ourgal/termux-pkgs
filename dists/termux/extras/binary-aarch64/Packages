@@ -12,3 +12,17 @@ SHA1: 87d7bb11a6b08ba8f89073d99dcab953fabde94e
 SHA256: 1b33cab77e6ea2c7711db6dc42b82a3cee688abf041f16829c82d0c0c38564a7
 SHA512: 7177b8855c03dd66a0cfa8f2b8b23e46b60af4803c729eafe979f788890312070b0320ea3c40e248c04a414ea6b2f16ef1797cae091071f9505a69c4b5276a45
 
+Package: jsonfmt
+Version: 0.5.1
+Architecture: aarch64
+Maintainer: ourgal
+Installed-Size: 6066
+Homepage: https://github.com/caarlos0/jsonfmt
+Description: Like gofmt, but for JSON files.
+Filename: dists/termux/extras/binary-aarch64/jsonfmt_0.5.1_aarch64.deb
+Size: 2588212
+MD5Sum: 3fc5555bea495ea701a95fd56a9b87bf
+SHA1: f90ea814a9f2b5a26ab813910a1e2ce066416e93
+SHA256: fa86eee906718252a6a35ff707fffdf27818547163bb325720095e222f73abbe
+SHA512: ed2b99eb48f29e441794ba42c8840da3e8710eb59cc51d78e64c0e09a9d6ba0d33e60e9ea05e5835697fbc5bf6b1d159b84890d824c8da56f87739bf6dd026f9
+
