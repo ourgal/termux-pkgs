@@ -1,0 +1,10 @@
+{
+  "control": {
+    "Package": "nixfmt",
+    "Version": "1.0.0",
+    "Architecture": "aarch64",
+    "Maintainer": "ourgal",
+    "Homepage": "https://github.com/NixOS/nixfmt",
+    "Description": ["Official formatter for Nix code"]
+  }
+}
