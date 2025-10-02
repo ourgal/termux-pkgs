@@ -12,31 +12,17 @@ SHA1: 87d7bb11a6b08ba8f89073d99dcab953fabde94e
 SHA256: 1b33cab77e6ea2c7711db6dc42b82a3cee688abf041f16829c82d0c0c38564a7
 SHA512: 7177b8855c03dd66a0cfa8f2b8b23e46b60af4803c729eafe979f788890312070b0320ea3c40e248c04a414ea6b2f16ef1797cae091071f9505a69c4b5276a45
 
-Package: jsonfmt
-Version: 0.5.1
-Architecture: aarch64
-Maintainer: ourgal
-Installed-Size: 3965
-Homepage: https://github.com/caarlos0/jsonfmt
-Description: Like gofmt, but for JSON files.
-Filename: dists/termux/extras/binary-aarch64/jsonfmt_0.5.1_aarch64.deb
-Size: 1169480
-MD5Sum: e056fbf25033064b20275d7323374a27
-SHA1: 77cd24c7e5522549c1065e1ac35bc50fd6d1b692
-SHA256: 278c5eb14a918a34f82269233c343b486f8f773486b4577544993127a1510e4d
-SHA512: 644d59a52eca45e0e10bd5a03766d3270efc887a1aa87c4ac38a80a8aa9fb5a64404d2306ea937cc869ccf120541a05de9ae8fd59d566065e767fb50957ceab2
-
 Package: yamlfmt
 Version: 0.17.2
 Architecture: aarch64
 Maintainer: ourgal
-Installed-Size: 4097
+Installed-Size: 4171
 Homepage: https://github.com/google/yamlfmt
 Description: An extensible command line tool or library to format yaml files.
 Filename: dists/termux/extras/binary-aarch64/yamlfmt_0.17.2_aarch64.deb
-Size: 1181072
-MD5Sum: 1b85a930bf000f0c711625b72bb933fc
-SHA1: c159c08e3a5689da5ce02c1552a4920831c993b8
-SHA256: fad6291dfcd180d1b0191d7a7eb494e8ea83b483b29c892b02ffac90d366a040
-SHA512: 95a2c3ae04fc80f4a12570d7ac6180eb54f9fd6844f2895f183f1c5753326bcbb8f514cda52bd3260c5fcee7c006d2bc75092e0e8d2f901c920f6221fac9f2bf
+Size: 1255284
+MD5Sum: 0235f01825930fe76ffbe2ecfe27b75b
+SHA1: cea30f43a40781bb088ea6aef0f01b39a6490ef7
+SHA256: 744ee417f97f24c55766f4d197663a64d38c74f46c4b570cff94742790ab0880
+SHA512: 04f56cbb41cdd738d94d4692d5baf9b65a67b9b84ea194d883f6d50a09c7df5527a9465ba6e0cb3fb8115c839e98e02a4e72731990eaeabcc90f0d8642b3f96a
 
