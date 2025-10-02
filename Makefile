@@ -1,13 +1,10 @@
-all: create-repo
+SUBDIRS := $(wildcard src/*/.)
+
+.PHONY: $(SUBDIRS) create-repo
+all: $(SUBDIRS)
+
+$(SUBDIRS):
+	$(MAKE) -C $@
 
 create-repo:
 	termux-apt-repo input output
-
-jsonfmt:
-	make -C src/jsonfmt/
-
-yamlfmt:
-	make -C src/yamlfmt/
-
-emacs-lsp-booster:
-	make -C src/emacs-lsp-booster/

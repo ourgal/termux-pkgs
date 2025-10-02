@@ -21,10 +21,8 @@ jobs:
         run: pip3 install termux-create-package
       - name: Install termux-apt-repo
         run: pip3 install termux-apt-repo
-      - name: Build emacs-lsp-booster
-        run: make emacs-lsp-booster
-      - name: Create repo
-        run: make create-repo
+      - name: Build packages and deploy to pages
+        run: make
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
