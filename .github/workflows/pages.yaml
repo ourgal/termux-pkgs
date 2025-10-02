@@ -13,14 +13,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: DeterminateSystems/nix-installer-action@main
-      - name: Build jsonfmt
-        run: make jsonfmt
       - name: Set up python
         uses: actions/setup-python@v5
         with:
           python-version: 3.x
+      - name: Install termux-create-package
+        run: pip3 install termux-create-package
       - name: Install termux-apt-repo
         run: pip3 install termux-apt-repo
+      - name: Build jsonfmt
+        run: make jsonfmt
       - name: Create repo
         run: make create-repo
       - name: Deploy
