@@ -1,15 +1,7 @@
-VERSION := $(shell cargo info --registry crates-io emacs-lsp-booster | grep ^version | cut -d ' ' -f 2)
+all: build create-package
 
-all: install update-version create-package clean
-
-install:
-	cargo install emacs-lsp-booster
-
-update-version:
-	jq '.control.Version = "$(VERSION)"' package.json | sponge package.json
+build:
+	nix-build -E 'with import <nixpkgs> {}; pkgsCross.aarch64-multiplatform.pkgsStatic.emacs-lsp-booster'
 
 create-package:
 	termux-create-package package.json
-
-clean:
-	cargo uninstall emacs-lsp-booster

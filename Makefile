@@ -8,3 +8,6 @@ jsonfmt:
 
 yamlfmt:
 	make -C src/yamlfmt/
+
+emacs-lsp-booster:
+	make -C src/emacs-lsp-booster/
