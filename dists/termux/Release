@@ -1,0 +1,27 @@
+Codename: termux
+Version: 1
+Architectures: aarch64
+Description: termux repository
+Suite: termux
+Date: Thu, 02 Oct 2025 14:21:50 UTC
+Components: extras
+MD5Sum:
+ 3b768923a9969d4ebb06a351fecded4a 1767 extras/binary-aarch64/Packages
+ d975d38dc63a7efcd1a8622b94921238 964 extras/binary-aarch64/Packages.xz
+ aa1b96dcbcfff6de8859297991543df0 144 extras/Contents-aarch64.xz
+ 5aaa766b6be5112c910421e80f868391 277 extras/Contents-aarch64
+SHA1:
+ 708cf437fdf976db863d86f11da4ab2b9b57985a 1767 extras/binary-aarch64/Packages
+ 1b624b3d01becece0ea95d7a4b18f5670f4e1199 964 extras/binary-aarch64/Packages.xz
+ bb3a389c61c1801db7a45373be5f5d426e1940db 144 extras/Contents-aarch64.xz
+ e18984488b4d95f08261714941ad65f8edd0f05b 277 extras/Contents-aarch64
+SHA256:
+ 916c9e1f35a412baf9c1d7cb9557fabf0c096c3337ccd324b88fd2b40ff933f9 1767 extras/binary-aarch64/Packages
+ bbfec291f9748238af966c309d96b524f35300d766ce01ac9ad18a278e8bad61 964 extras/binary-aarch64/Packages.xz
+ 0dbf5facc54955cfdac41ef174a9750a2e67152bcce6a11e819746f474ef8ba3 144 extras/Contents-aarch64.xz
+ bc7e1e39b0d99402e3c34c20add791f75fdb03b116db6570b3af9651d9803157 277 extras/Contents-aarch64
+SHA512:
+ a10c59f5aa2ece6c97b5b3228b9f7a0c79bc36543b77a4db80cdda7f1b0d9da0dc2fca9bdaaf81c7a8e52b4cd4144fc8750fecac241e5682cd1bbb2575774ffd 1767 extras/binary-aarch64/Packages
+ 961ee5e714c9816e88c47a2c4e196c4a13d476b925b8c77c837cb670e514a1c8175d18bc1e87b7f6b22b53386ae5ab8495851f04cef40a3ad5533f29cb362874 964 extras/binary-aarch64/Packages.xz
+ c9be1e1c571c0603c09a9bae177324667842ea8d052b4bdec647900a55d54b00ca6f3b60bfd0db9be43bb9e77f463e58210acbffa1bf0d4690c9f7794cc8e2a0 144 extras/Contents-aarch64.xz
+ 46477535871598bb1b1e3cfe51a73b798fff07e2cf3fc726c5114f50a157bcf6d646b5f19bbb10053e9fbb5c2d855f331292da8df33e3245612d490384d54ad7 277 extras/Contents-aarch64
