@@ -12,14 +12,17 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+      - uses: DeterminateSystems/nix-installer-action@main
+      - name: Build jsonfmt
+        run: make jsonfmt
       - name: Set up python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: 3.x
       - name: Install termux-apt-repo
         run: pip3 install termux-apt-repo
       - name: Create repo
-        run: termux-apt-repo input output
+        run: make create-repo
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:

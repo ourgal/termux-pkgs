@@ -5,14 +5,12 @@
     "Architecture": "aarch64",
     "Maintainer": "ourgal",
     "Homepage": "https://github.com/caarlos0/jsonfmt",
-    "Description": [
-      "Like gofmt, but for JSON files."
-    ]
+    "Description": ["Like gofmt, but for JSON files."]
   },
   "deb_dir": "../../input",
   "data_files": {
     "bin/jsonfmt": {
-      "source": "/data/data/com.termux/files/home/go/bin/jsonfmt"
+      "source": "result/bin/jsonfmt"
     }
   }
 }
