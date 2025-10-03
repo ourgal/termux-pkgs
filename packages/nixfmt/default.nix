@@ -1,7 +1,10 @@
 # This file has been autogenerate with cabal2nix.
 # Update via ./update.sh
 { pkgs, lib, ... }:
-pkgs.pkgsStatic.haskellPackages.mkDerivation {
+let
+  pkgs' = pkgs.pkgsCross.aarch64-multiplatform;
+in
+pkgs'.pkgsStatic.haskellPackages.mkDerivation {
   pname = "nixfmt";
   version = "1.0.0";
   src = pkgs.fetchzip {
@@ -10,7 +13,7 @@ pkgs.pkgsStatic.haskellPackages.mkDerivation {
   };
   isLibrary = true;
   isExecutable = true;
-  libraryHaskellDepends = with pkgs.pkgsMusl.haskellPackages; [
+  libraryHaskellDepends = with pkgs'.pkgsMusl.haskellPackages; [
     base
     megaparsec
     mtl
@@ -20,7 +23,7 @@ pkgs.pkgsStatic.haskellPackages.mkDerivation {
     text
     transformers
   ];
-  executableHaskellDepends = with pkgs.pkgsMusl.haskellPackages; [
+  executableHaskellDepends = with pkgs'.pkgsMusl.haskellPackages; [
     base
     bytestring
     cmdargs
@@ -35,9 +38,9 @@ pkgs.pkgsStatic.haskellPackages.mkDerivation {
   ];
   configureFlags = [
     "--ghc-option=-optl=-static"
-    "--extra-lib-dirs=${pkgs.gmp.override { withStatic = true; }}/lib"
+    "--extra-lib-dirs=${pkgs'.gmp.override { withStatic = true; }}/lib"
     "--extra-lib-dirs=${
-      pkgs.libffi.overrideAttrs (old: {
+      pkgs'.libffi.overrideAttrs (old: {
         dontDisableStatic = true;
       })
     }/lib"

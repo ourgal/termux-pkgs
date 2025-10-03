@@ -5,7 +5,7 @@
   ...
 }:
 
-pkgs.pkgsStatic.buildGoModule rec {
+pkgs.pkgsCross.aarch64-multiplatform.pkgsStatic.buildGoModule rec {
   pname = "jsonfmt";
   version = "0.5.1";
 

@@ -6,7 +6,7 @@
   ...
 }:
 
-pkgs.pkgsStatic.buildGoModule (finalAttrs: {
+pkgs.pkgsCross.aarch64-multiplatform.pkgsStatic.buildGoModule (finalAttrs: {
   pname = "yamlfmt";
   version = "0.17.2";
 

@@ -12,20 +12,6 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - uses: DeterminateSystems/nix-installer-action@main
-      - uses: DeterminateSystems/magic-nix-cache-action@main
-      - uses: actions/setup-python@v5
-        with:
-          python-version: 3.x
-      - name: Install termux packages
-        uses: insightsengineering/pip-action@v2
-        with:
-          packages: |
-            termux-create-package
-            termux-apt-repo
-      - uses: amitie10g/install-package@v1
-        with:
-          apt: jq moreutils
       - name: Free Disk Space (Ubuntu)
         uses: jlumbroso/free-disk-space@main
         with:
@@ -41,6 +27,23 @@ jobs:
           large-packages: true
           docker-images: true
           swap-storage: true
+      - uses: wimpysworld/nothing-but-nix@main
+        with:
+          hatchet-protocol: carve  # Options: holster, carve, cleave (default), rampage
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: DeterminateSystems/magic-nix-cache-action@main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - name: Install termux packages
+        uses: insightsengineering/pip-action@v2
+        with:
+          packages: |
+            termux-create-package
+            termux-apt-repo
+      - uses: amitie10g/install-package@v1
+        with:
+          apt: jq moreutils
       - name: Build packages and deploy to pages
         run: make
       - name: Deploy
