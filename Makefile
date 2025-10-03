@@ -14,5 +14,9 @@ scr/nixfmt: ;
 	jq '.data_files."bin/$(CURRENT_DIR)".source = "$(CURRENT_DIR)" | .deb_dir = "input"' $(CONF) | sponge $(CONF)
 	termux-create-package $(CONF)
 
+scr/nil: ;
+	jq '.data_files."bin/$(CURRENT_DIR)".source = "$(CURRENT_DIR)" | .deb_dir = "input"' $(CONF) | sponge $(CONF)
+	termux-create-package $(CONF)
+
 create-repo:
 	termux-apt-repo input output
