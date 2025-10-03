@@ -10,11 +10,11 @@ $(SUBDIRS):
 	nix build .#$(CURRENT_DIR)
 	termux-create-package $(CONF)
 
-scr/nixfmt: ;
+src/nixfmt:
 	jq '.data_files."bin/$(CURRENT_DIR)".source = "$(CURRENT_DIR)" | .deb_dir = "input"' $(CONF) | sponge $(CONF)
 	termux-create-package $(CONF)
 
-scr/nil: ;
+src/nil:
 	jq '.data_files."bin/$(CURRENT_DIR)".source = "$(CURRENT_DIR)" | .deb_dir = "input"' $(CONF) | sponge $(CONF)
 	termux-create-package $(CONF)
 
