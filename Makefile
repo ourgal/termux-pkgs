@@ -10,5 +10,7 @@ $(SUBDIRS):
 	nix build .#$(CURRENT_DIR)
 	termux-create-package $(CONF)
 
+scr/nixfmt: ;
+
 create-repo:
 	termux-apt-repo input output
