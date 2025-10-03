@@ -11,11 +11,11 @@ $(SUBDIRS):
 	termux-create-package $(CONF)
 
 src/nixfmt:
-	jq '.data_files."bin/$(CURRENT_DIR)".source = "$(CURRENT_DIR)" | .deb_dir = "input"' $(CONF) | sponge $(CONF)
+	jq '.data_files."bin/$(CURRENT_DIR)".source = "src/$(CURRENT_DIR)/$(CURRENT_DIR)" | .deb_dir = "input"' $(CONF) | sponge $(CONF)
 	termux-create-package $(CONF)
 
 src/nil:
-	jq '.data_files."bin/$(CURRENT_DIR)".source = "$(CURRENT_DIR)" | .deb_dir = "input"' $(CONF) | sponge $(CONF)
+	jq '.data_files."bin/$(CURRENT_DIR)".source = "src/$(CURRENT_DIR)/$(CURRENT_DIR)" | .deb_dir = "input"' $(CONF) | sponge $(CONF)
 	termux-create-package $(CONF)
 
 create-repo:
