@@ -1,7 +1,7 @@
 {
   "control": {
     "Package": "nil",
-    "Version": "2025-06-13",
+    "Version": "20250613",
     "Architecture": "aarch64",
     "Maintainer": "ourgal",
     "Homepage": "https://github.com/oxalica/nil",
