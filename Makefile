@@ -18,5 +18,7 @@ src/nil:
 	jq '.data_files."bin/$(CURRENT_DIR)".source = "src/$(CURRENT_DIR)/$(CURRENT_DIR)" | .deb_dir = "input"' $(CONF) | sponge $(CONF)
 	termux-create-package $(CONF)
 
+src/nixd: ;
+
 create-repo:
 	termux-apt-repo input output
