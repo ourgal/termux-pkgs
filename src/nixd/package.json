@@ -1,0 +1,12 @@
+{
+  "control": {
+    "Package": "nixd",
+    "Version": "0.2.7",
+    "Architecture": "aarch64",
+    "Maintainer": "ourgal",
+    "Homepage": "https://github.com/nix-community/nixd",
+    "Description": [
+      "Feature-rich Nix language server interoperating with C++ nix"
+    ]
+  }
+}
