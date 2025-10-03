@@ -2,41 +2,41 @@ Package: emacs-lsp-booster
 Version: 0.2.1
 Architecture: aarch64
 Maintainer: ourgal
-Installed-Size: 1925
+Installed-Size: 1918
 Homepage: https://github.com/blahgeek/emacs-lsp-booster
 Description: Emacs LSP performance booster
 Filename: dists/termux/extras/binary-aarch64/emacs-lsp-booster_0.2.1_aarch64.deb
-Size: 551756
-MD5Sum: 7de36b41cfd79eeb1771768c6f7ce7fc
-SHA1: 7a52e8c7ea4b2cf1c2c64878e2ae7ae650dacd97
-SHA256: 583771512379b494a6490e8a40c54eb24772c464e0114eef78cfea24135039bc
-SHA512: 12363037cbaf49f2f36f6e9eb6fd4fcfc93fba9fd3fd15dbfa16104c649439412a1a859145d8981381eb7938b37a9682d13aaa3e2bb0c2cce933754d5591bfcc
+Size: 551584
+MD5Sum: b5130afbb55906c6cf8feec123be95e3
+SHA1: eb596ad68caa18537b0e8c2509dd37809b466695
+SHA256: bff32d966333779e4bb3bc1bb17bf89dcd2715709c6cd9b35a7fd93a7d05c88d
+SHA512: b388418a59a8733d2cb059cbde4d68565bb6dce47ae144845e9992784cb2b288e29f9726e54715c849ec22ef2f2d79dd1c839ae725911fc85f351873bbde7458
 
 Package: jsonfmt
 Version: 0.5.1
 Architecture: aarch64
 Maintainer: ourgal
-Installed-Size: 3965
+Installed-Size: 3951
 Homepage: https://github.com/caarlos0/jsonfmt
 Description: Like gofmt, but for JSON files.
 Filename: dists/termux/extras/binary-aarch64/jsonfmt_0.5.1_aarch64.deb
-Size: 1169660
-MD5Sum: 9a39ffbfa4a0f6bfd8281cc51680b427
-SHA1: a6383cc34faa0528292949dfa03942dbb7b9b66d
-SHA256: 13d8e22d5f5e5614c1e29f02649282a01dfc1e7d790502dfdce511b367e685fb
-SHA512: 77a2d15d5a2b708e203d5b4125bc9e328695e37eb384ebaf73f3d78ae181d4748ecb502249a60d586474e5c561515e49d0c8c7a66c0b1f2dd63b6826bc797798
+Size: 1146688
+MD5Sum: af9bacfd4fdef99fdf9e360f026d365a
+SHA1: 0682e6bf14d6c145af4a6f7e084e94dc240cbf44
+SHA256: 95a02f75bd131d21239b52206ba7f27cb58efd20c00e8174b942e047d9fb6e0b
+SHA512: 2ae40d87278e106e7023e44c1f0573e25c30dc5b1b864771c7a70f7ca4463ed71021c9f32577134d36b5a5964f623880249d00a45afcdbe9d2bdcf19ffc7e0a3
 
 Package: yamlfmt
 Version: 0.17.2
 Architecture: aarch64
 Maintainer: ourgal
-Installed-Size: 4171
+Installed-Size: 4158
 Homepage: https://github.com/google/yamlfmt
 Description: An extensible command line tool or library to format yaml files.
 Filename: dists/termux/extras/binary-aarch64/yamlfmt_0.17.2_aarch64.deb
-Size: 1254968
-MD5Sum: 19c85ca56bd14b40004bd0d44bcafef9
-SHA1: bf430caa3675739b4994bca4a33fcf1c097efa32
-SHA256: 5746206204618629d61d10a3d8f931246990073c583b8c1372b12ce709ae093c
-SHA512: f0154770ab12c0e18af8f0eb696b7e13498bbe986e8c59f32b2af0f2c82237d72b18c9f4cc756ed8828a35c29dccea0c024fc0b5e98858d2a2e785c07f0ca66c
+Size: 1230512
+MD5Sum: 378d6e41d697f22df8910cc7f4b30d5c
+SHA1: 621f37662032738d365fd2dd54363e2987721f0d
+SHA256: 63eecf0a281613e7bd550d672fd0caeb556002fc9e22a0972b44639f92354c9f
+SHA512: d1f55fc4c9a51958887fe13e39d461a3bda34cd2531d2173bbc8452a084965862904b73fd6191bcda89b146925315563735960e5fdb2a5fdd8163bd6affa2555
 
