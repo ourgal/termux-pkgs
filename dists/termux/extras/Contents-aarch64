@@ -1,5 +1,6 @@
 data/data/com.termux/files/usr/bin/emacs-lsp-booster                             emacs-lsp-booster
 data/data/com.termux/files/usr/bin/jsonfmt                                       jsonfmt
+data/data/com.termux/files/usr/bin/keep-sorted                                   keep-sorted
 data/data/com.termux/files/usr/bin/nil                                           nil
 data/data/com.termux/files/usr/bin/nixfmt                                        nixfmt
 data/data/com.termux/files/usr/bin/yamlfmt                                       yamlfmt
