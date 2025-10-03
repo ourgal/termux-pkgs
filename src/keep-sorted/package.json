@@ -1,0 +1,12 @@
+{
+  "control": {
+    "Package": "keep-sorted",
+    "Version": "0.7.1",
+    "Architecture": "aarch64",
+    "Maintainer": "ourgal",
+    "Homepage": "https://github.com/google/keep-sorted",
+    "Description": [
+      "Language-agnostic formatter that sorts lines between two markers in a lar file"
+    ]
+  }
+}
