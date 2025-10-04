@@ -6,11 +6,11 @@ Installed-Size: 1918
 Homepage: https://github.com/blahgeek/emacs-lsp-booster
 Description: Emacs LSP performance booster
 Filename: dists/termux/extras/binary-aarch64/emacs-lsp-booster_0.2.1_aarch64.deb
-Size: 551708
-MD5Sum: f9ea34eb128c37e4e0ff111542241943
-SHA1: 6baf374f919b303c28d019049a0fb83cefa20c79
-SHA256: 902fb682bcfbe6a3ffc11e023396a3e2a4dd14d9c05f91945e4ccc1833af8776
-SHA512: 8cbbfc941b434a5fb71514706e2eeec515b3d1eb57f0782e9b983b8af712dbbf633ca7d4cc7ae6cf4ce184b7a7f6147d3850a9846039af0b446ea9f28299b8ae
+Size: 551652
+MD5Sum: 6553a290a4399bcba1c962095da1d498
+SHA1: 20f540ec78e8390decc049b6f7e11def24ee8cde
+SHA256: 07477697d66ccfd04147a55e5d8ce823ab4b10d295f3674e73de86789a9cfa06
+SHA512: a3371eff838cbbec6c632114e1723dad7fccbbf9756b33f6dd17cd74db0d2dce683b958873dba7ed577284bc2c0c7dc545509744508baba21045bc27a38f7eb9
 
 Package: jsonfmt
 Version: 0.5.1
@@ -20,11 +20,11 @@ Installed-Size: 3951
 Homepage: https://github.com/caarlos0/jsonfmt
 Description: Like gofmt, but for JSON files.
 Filename: dists/termux/extras/binary-aarch64/jsonfmt_0.5.1_aarch64.deb
-Size: 1147784
-MD5Sum: 303f8df1a6c5f481f8937e7653cefecc
-SHA1: f5696cfc65d70d2d1d4c918a0bbfe8077a1e2034
-SHA256: 5c80053e95913076f8903a375392a4711439f585db8cf0496e429482cdaa88ec
-SHA512: 54a50832f38ef23737d56b175608f78488d707b7950262d632a810e08da53a5d9e948c6ef1b45b4f740f9433c5bf49bfdf14ace115302956a97bd172e6a7762b
+Size: 1146824
+MD5Sum: b9d26f4444fe091254c498a9d2a3f767
+SHA1: 603d2983eadab942379a407535302c2c1eec47b4
+SHA256: 1f7222eb6c40a0dc81588b519c53ab349a0a8abbe34f495ddad73260c001e9a4
+SHA512: d19df0b04f621d6bffb4b711809ad32105aaf4854fe8c07295b3fe59c19253aabbea18f695261a74c8c9d663294eb2dc9b0ce328a64264857eea0c2e21640c13
 
 Package: keep-sorted
 Version: 0.7.1
@@ -34,11 +34,11 @@ Installed-Size: 3053
 Homepage: https://github.com/google/keep-sorted
 Description: Language-agnostic formatter that sorts lines between two markers in a lar file
 Filename: dists/termux/extras/binary-aarch64/keep-sorted_0.7.1_aarch64.deb
-Size: 935916
-MD5Sum: 0f4b48f2227dc43009411d2d32329040
-SHA1: 65b2f8dea19c075439d4000cc2962edf4fc12d8c
-SHA256: b2a9076074fd9d51c7b9e28e1df648423551f267e923e5e116553357190f7bef
-SHA512: 3fbc320370212d3a90eb2ac1be8e25e8f67a52d80d28bbb296a34ca76e033e8e33f7021e040b96aaec4067c1afa4f79b6bf7e5f3e77dbe1e41cae984e34a3f98
+Size: 935992
+MD5Sum: d389d0313326aa3694970d0f22a23d14
+SHA1: 8f643fcb90b7cb9b1cf095df37cb748ea7486926
+SHA256: e745278de54973bac880fa873128fcf527a58b70260e5a3fd37da23bfdba45ed
+SHA512: b603d0444bbd4399a49c68b22e94102e4bf895716342fa683f9a393165654bdd930923cf00abaedda071946edf33b1c4c3b0f2a5a610323768f79c8fda182a5a
 
 Package: lefthook
 Version: 20250613
@@ -48,11 +48,11 @@ Installed-Size: 13764
 Homepage: https://github.com/evilmartians/lefthook
 Description: Fast and powerful Git hooks manager for any type of projects
 Filename: dists/termux/extras/binary-aarch64/lefthook_20250613_aarch64.deb
-Size: 3722700
-MD5Sum: 361ec6bc1c4cbc4970180ffde213eaab
-SHA1: 0299d6d8248c3b49f4caf8e594fa6ae124436549
-SHA256: dc262f30a6fe060bcc1f29f41a10a8f126536bb2afbd916dc6eae7c0eb4f3d21
-SHA512: a8626c25188894afc4011af7a147b648361b04366db5d829d87e331d851083f16728991a8740d39c4ddbe18e453f93d388e53ebb02216117bc67f0b83cdc5da8
+Size: 3721724
+MD5Sum: f79129a57e3ba2eb2331a07c61667366
+SHA1: e0839206605aafbf6db7e2e0bd2edb49bef856a4
+SHA256: 4d68b8473dd4dd2526153d0f95a551a8b8397805e1e44dd560b35ebd8b7218fe
+SHA512: 558f78ba1c6f63152732e830a525d7d158bbb2860d5f501353e243e244e23fac30f13866489b536c767f55b103e17352e71e0a208c9286541535184b9ffc8b1b
 
 Package: nil
 Version: 20250613
@@ -62,11 +62,11 @@ Installed-Size: 7503
 Homepage: https://github.com/oxalica/nil
 Description: Yet another language server for Nix
 Filename: dists/termux/extras/binary-aarch64/nil_20250613_aarch64.deb
-Size: 1981924
-MD5Sum: ec12a69d7f41fef16edd34476fb4ef63
-SHA1: 0e1ff54a557e4af2c823e52563d4242069129ba6
-SHA256: ea98b78390d8f25f0c04f9746d0af810a908eddae8cbe46fdcc0dcc0edb054cb
-SHA512: 3217316a9092d9df0afa0c21314980a569014f2a739c70dad043d380c44637d5a02b22f6613bba00752c9526f2aa21029bef38a97081c4c5b6b20b993f64f38f
+Size: 1982248
+MD5Sum: 537ac45d0dc93cb688622c2497f964e9
+SHA1: dde76eb5bf3411e0a42b41d198a4fd9ddb5bfa8e
+SHA256: 17237a0b6c3981a7c372ae417a763944bb0f444a07ea2d55229d598b86ac3d5d
+SHA512: 583870c84dd0a9c93cba63da42f0cd322361dd0fc26fafa43dd8304f287c347166ea814b5ad5cf4d4a0ec6afacd4ac3e999b3e2268f8f0e6b6b28d1b7d5bf2c7
 
 Package: nixfmt
 Version: 1.0.0
@@ -76,11 +76,11 @@ Installed-Size: 5792
 Homepage: https://github.com/NixOS/nixfmt
 Description: Official formatter for Nix code
 Filename: dists/termux/extras/binary-aarch64/nixfmt_1.0.0_aarch64.deb
-Size: 1054536
-MD5Sum: d3733d4c08bf7080257ebbdb3d40ca4f
-SHA1: edbf4f2aaab100e6962530b6ff5326eb7e33dc5e
-SHA256: 27a4a60b495a6707cb3f1e37298fd56c02cf562579c011acd6d13746dee3360c
-SHA512: 2fc3e0d4cabb88aa021ccf9b1e06c7b8ef2c08d969efb341b5f4fa8fed1b0517b0287efd0e3b9d4b04ac476e1d3fdf13c68827ea5218d9e55fd9c0172791e4c7
+Size: 1054512
+MD5Sum: 68871e8868fb6ffc33ccecde0bb6e2b7
+SHA1: 364658e81df4584556f3009b22ff278e95802866
+SHA256: 287f37fbbc22ad3ff0e425a852e1546837a18d4fedc407bd9215445ee5c05013
+SHA512: a005c46675c9c7b60bcdb67b3ae2ffe5fa90b9d71a66a675f3a8cc0fb890cc625dda85c6d937f95a2f132b75c11dd271b04e3e55e55ef94e6548d2b5c3c7d9f9
 
 Package: yamlfmt
 Version: 0.17.2
@@ -90,9 +90,9 @@ Installed-Size: 4158
 Homepage: https://github.com/google/yamlfmt
 Description: An extensible command line tool or library to format yaml files.
 Filename: dists/termux/extras/binary-aarch64/yamlfmt_0.17.2_aarch64.deb
-Size: 1231004
-MD5Sum: 3ce3a137e4f28f9b0ad16c85e44a9167
-SHA1: 0dd9bc78d15e853901dbd5cd73ce6ea2bd1a7214
-SHA256: a6e7ab187a8d3ceb8b2db10ff038483648726b8dbc2e9e73e974f5ea009476b4
-SHA512: f5797a876810c5db7e117601442babc8651cc5490ed07849132ad6c5e5e16e635f796c7ac7f4cad7db3d6af72d89260259d3778b511cc0c8aa5ebc3bd6909756
+Size: 1230656
+MD5Sum: 2890ba85c6d38e6aa2f015281a03f8ba
+SHA1: 59dc7f1e193239c8404380d627ad230e9f8640c2
+SHA256: a48c4e3390853bce206f192a5c69e511e41b62913ed03eb68dbc05f744854ef4
+SHA512: e5cb3db164c650a975de5d58764facaaf310123f0c07c8c15ebc42e8498d9f82e428bb43501069430481a62e1e790372df7b95b25e46e03f50760514a6a0e3ba
 
