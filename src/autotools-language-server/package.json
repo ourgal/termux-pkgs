@@ -1,0 +1,10 @@
+{
+  "control": {
+    "Package": "autotools-language-server",
+    "Version": "0.0.22",
+    "Architecture": "aarch64",
+    "Maintainer": "ourgal",
+    "Homepage": "https://github.com/Freed-Wu/autotools-language-server",
+      "Description": ["Autotools laugeage server, support configure.ac, Makefile.am, Makefile"]
+  }
+}
