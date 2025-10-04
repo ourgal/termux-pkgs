@@ -20,5 +20,7 @@ src/nil:
 
 src/nixd: ;
 
+src/autotools-language-server: ;
+
 create-repo:
 	termux-apt-repo input output
