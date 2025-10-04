@@ -1,0 +1,10 @@
+{
+  "control": {
+    "Package": "biome",
+    "Version": "2.2.4",
+    "Architecture": "aarch64",
+    "Maintainer": "ourgal",
+    "Homepage": "https://biomejs.dev",
+    "Description": ["Toolchain of the web"]
+  }
+}
