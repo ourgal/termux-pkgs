@@ -1,0 +1,10 @@
+{
+  "control": {
+    "Package": "lefthook",
+    "Version": "20250613",
+    "Architecture": "aarch64",
+    "Maintainer": "ourgal",
+    "Homepage": "https://github.com/evilmartians/lefthook",
+    "Description": ["Fast and powerful Git hooks manager for any type of projects"]
+  }
+}
