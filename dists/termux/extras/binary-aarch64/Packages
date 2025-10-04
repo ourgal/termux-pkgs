@@ -1,3 +1,17 @@
+Package: biome
+Version: 2.2.4
+Architecture: aarch64
+Maintainer: ourgal
+Installed-Size: 29772
+Homepage: https://biomejs.dev
+Description: Toolchain of the web
+Filename: dists/termux/extras/binary-aarch64/biome_2.2.4_aarch64.deb
+Size: 6880740
+MD5Sum: ada2903d724003e439c803c6d3f1fa67
+SHA1: 1ce7d2b336fcda3c2f4df7402965e2be9828c26b
+SHA256: e25cf208451ff66d5e4a29cd5ec87f1a2ad5f5fce9080f68cb22b6f2b6eaf519
+SHA512: 13e70548f6163effe43866e72d7e491fb7ecf09fa6bbe9cc08ee822d63f6707578d724d0edfe546e1321ead0836e1a2d3c4faad51baad061cd5b0e609521ad91
+
 Package: emacs-lsp-booster
 Version: 0.2.1
 Architecture: aarch64
@@ -6,11 +20,11 @@ Installed-Size: 1918
 Homepage: https://github.com/blahgeek/emacs-lsp-booster
 Description: Emacs LSP performance booster
 Filename: dists/termux/extras/binary-aarch64/emacs-lsp-booster_0.2.1_aarch64.deb
-Size: 551652
-MD5Sum: 6553a290a4399bcba1c962095da1d498
-SHA1: 20f540ec78e8390decc049b6f7e11def24ee8cde
-SHA256: 07477697d66ccfd04147a55e5d8ce823ab4b10d295f3674e73de86789a9cfa06
-SHA512: a3371eff838cbbec6c632114e1723dad7fccbbf9756b33f6dd17cd74db0d2dce683b958873dba7ed577284bc2c0c7dc545509744508baba21045bc27a38f7eb9
+Size: 551576
+MD5Sum: 1d4e56d128258650af878fa093066c24
+SHA1: c6e6ba6747c2f890d15a469014ce4f22bfb447ae
+SHA256: e90ca4d601d8fbe251b213b9cb385d172cfa68ab8e750186f3dba6d407978bcc
+SHA512: accccdde92a476216595679054b3fae0011a344b918fd398ab6762de88238b27d21138ad26ed5e5c612f1018c0936ef17b122d367545f7c5276c2d9a0210e148
 
 Package: jsonfmt
 Version: 0.5.1
@@ -20,11 +34,11 @@ Installed-Size: 3951
 Homepage: https://github.com/caarlos0/jsonfmt
 Description: Like gofmt, but for JSON files.
 Filename: dists/termux/extras/binary-aarch64/jsonfmt_0.5.1_aarch64.deb
-Size: 1146824
-MD5Sum: b9d26f4444fe091254c498a9d2a3f767
-SHA1: 603d2983eadab942379a407535302c2c1eec47b4
-SHA256: 1f7222eb6c40a0dc81588b519c53ab349a0a8abbe34f495ddad73260c001e9a4
-SHA512: d19df0b04f621d6bffb4b711809ad32105aaf4854fe8c07295b3fe59c19253aabbea18f695261a74c8c9d663294eb2dc9b0ce328a64264857eea0c2e21640c13
+Size: 1147716
+MD5Sum: b08b039b05078c7b9b8b04ac324e9ecd
+SHA1: 6f112a61b12ab8642a83e090b5bac01a9449a55c
+SHA256: 8c2ba24f8e56b8980fe17df4179f098591272557471de5efe7d04bd693ea9431
+SHA512: 7a1851143417b53d4717e0e2d9a56779774da47671047985722f1c90694ac1e3caacf5c85d261a413f157e9bc81a3d31828c1965cc900a9923be6f3b3581a306
 
 Package: keep-sorted
 Version: 0.7.1
@@ -34,11 +48,11 @@ Installed-Size: 3053
 Homepage: https://github.com/google/keep-sorted
 Description: Language-agnostic formatter that sorts lines between two markers in a lar file
 Filename: dists/termux/extras/binary-aarch64/keep-sorted_0.7.1_aarch64.deb
-Size: 935992
-MD5Sum: d389d0313326aa3694970d0f22a23d14
-SHA1: 8f643fcb90b7cb9b1cf095df37cb748ea7486926
-SHA256: e745278de54973bac880fa873128fcf527a58b70260e5a3fd37da23bfdba45ed
-SHA512: b603d0444bbd4399a49c68b22e94102e4bf895716342fa683f9a393165654bdd930923cf00abaedda071946edf33b1c4c3b0f2a5a610323768f79c8fda182a5a
+Size: 935200
+MD5Sum: a5e06f82e57203c78144f78b486aa613
+SHA1: a454d8892fad4ba4383d906e9ecece0e7e2d86de
+SHA256: 424f3f791decc7abaee1a77a99291287a85aaf9ce32213af147c9a50c45d885b
+SHA512: af9f6090cc9040311872cb3b6e6d87d5abf801d78c7aa560c437c0ea397b89a5e1f32a05cb8572274f12d46d734b00ad45292ea37bd808af80b89ec0b1a51d2d
 
 Package: lefthook
 Version: 20250613
@@ -48,11 +62,11 @@ Installed-Size: 13764
 Homepage: https://github.com/evilmartians/lefthook
 Description: Fast and powerful Git hooks manager for any type of projects
 Filename: dists/termux/extras/binary-aarch64/lefthook_20250613_aarch64.deb
-Size: 3721724
-MD5Sum: f79129a57e3ba2eb2331a07c61667366
-SHA1: e0839206605aafbf6db7e2e0bd2edb49bef856a4
-SHA256: 4d68b8473dd4dd2526153d0f95a551a8b8397805e1e44dd560b35ebd8b7218fe
-SHA512: 558f78ba1c6f63152732e830a525d7d158bbb2860d5f501353e243e244e23fac30f13866489b536c767f55b103e17352e71e0a208c9286541535184b9ffc8b1b
+Size: 3725256
+MD5Sum: 1dd75b41a87dfd0c36e85eb2c091439c
+SHA1: 22edaaf4307451d6bc2f5ce4bd9b3a9064c4e1db
+SHA256: 8ee5774ee9ff5c1aa14638922acb1a343c7961bb049a532fc889cd0cb03d97fb
+SHA512: 16635b167269f82ce744c3a466101d87c5ae070a33587028b20efb229ccff987fd4c155846750aae816b6a8587b1bbe082e92297c651a55b79f5bf40cac8de22
 
 Package: nil
 Version: 20250613
@@ -62,11 +76,11 @@ Installed-Size: 7503
 Homepage: https://github.com/oxalica/nil
 Description: Yet another language server for Nix
 Filename: dists/termux/extras/binary-aarch64/nil_20250613_aarch64.deb
-Size: 1982248
-MD5Sum: 537ac45d0dc93cb688622c2497f964e9
-SHA1: dde76eb5bf3411e0a42b41d198a4fd9ddb5bfa8e
-SHA256: 17237a0b6c3981a7c372ae417a763944bb0f444a07ea2d55229d598b86ac3d5d
-SHA512: 583870c84dd0a9c93cba63da42f0cd322361dd0fc26fafa43dd8304f287c347166ea814b5ad5cf4d4a0ec6afacd4ac3e999b3e2268f8f0e6b6b28d1b7d5bf2c7
+Size: 1982740
+MD5Sum: 31106f14b725ff633a258bdfd346f46e
+SHA1: 0db79dcee48c6560e4177bb9e9a300ef811f55c2
+SHA256: 8551dece6c00963b6462471a03ea7fd9209e6bbde02fa5887a07e33929e7ed5a
+SHA512: 5ccc762d397dfd9caf14d0e5679ecdc2a8d2906fc826cd3cc97928fc9bfe497ef6a93931f2136bcbfd178aa33588c72d37d092a0a444704c6968198ce20223f1
 
 Package: nixfmt
 Version: 1.0.0
@@ -76,11 +90,11 @@ Installed-Size: 5792
 Homepage: https://github.com/NixOS/nixfmt
 Description: Official formatter for Nix code
 Filename: dists/termux/extras/binary-aarch64/nixfmt_1.0.0_aarch64.deb
-Size: 1054512
-MD5Sum: 68871e8868fb6ffc33ccecde0bb6e2b7
-SHA1: 364658e81df4584556f3009b22ff278e95802866
-SHA256: 287f37fbbc22ad3ff0e425a852e1546837a18d4fedc407bd9215445ee5c05013
-SHA512: a005c46675c9c7b60bcdb67b3ae2ffe5fa90b9d71a66a675f3a8cc0fb890cc625dda85c6d937f95a2f132b75c11dd271b04e3e55e55ef94e6548d2b5c3c7d9f9
+Size: 1054364
+MD5Sum: 64220ae453f621bf92ff027a34af1ab6
+SHA1: 2bdd8d12c043ef81543494d4913c98ea0b6feacd
+SHA256: fbd88287c1a827cdad689d636a3113859a4921bf479470c24592d5839a4943ba
+SHA512: d5283e322d7413a93f708b4c1210ef70266e06853dff5a21fdae7bd8b2e1f7d4c2e8e74383d737f0b4d363df8e24260a9565b60f88fedaf4c6df471917a4440c
 
 Package: yamlfmt
 Version: 0.17.2
@@ -90,9 +104,9 @@ Installed-Size: 4158
 Homepage: https://github.com/google/yamlfmt
 Description: An extensible command line tool or library to format yaml files.
 Filename: dists/termux/extras/binary-aarch64/yamlfmt_0.17.2_aarch64.deb
-Size: 1230656
-MD5Sum: 2890ba85c6d38e6aa2f015281a03f8ba
-SHA1: 59dc7f1e193239c8404380d627ad230e9f8640c2
-SHA256: a48c4e3390853bce206f192a5c69e511e41b62913ed03eb68dbc05f744854ef4
-SHA512: e5cb3db164c650a975de5d58764facaaf310123f0c07c8c15ebc42e8498d9f82e428bb43501069430481a62e1e790372df7b95b25e46e03f50760514a6a0e3ba
+Size: 1230532
+MD5Sum: 3ffa705ac2d75e8fe36c16d085b3741d
+SHA1: e49fe4f909dcec4d1e83481e0f9a48e451b338a7
+SHA256: 3ec9292120aab57a56a258a437cf55b5ce19d17b9424d192108b2e77d2330165
+SHA512: a8f23d442f2d83b387c58202ed65b1294834ba7a367982326a6ba0f475092ddbeb70b759942643da159d3361d04689fb97d35798f3d9e8c044a0614cc059a1cd
 
