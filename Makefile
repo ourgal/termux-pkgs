@@ -20,6 +20,8 @@ src/nil:
 
 src/nixd: ;
 
+src/gitu: ;
+
 src/autotools-language-server: ;
 
 create-repo:
