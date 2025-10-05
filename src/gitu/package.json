@@ -1,0 +1,12 @@
+{
+  "control": {
+    "Package": "gitu",
+    "Version": "2.2.4",
+    "Architecture": "aarch64",
+    "Maintainer": "ourgal",
+    "Homepage": "https://github.com/altsem/gitu",
+    "Description": [
+      "TUI Git client inspired by Magit"
+    ]
+  }
+}
