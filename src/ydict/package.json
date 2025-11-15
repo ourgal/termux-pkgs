@@ -1,0 +1,12 @@
+{
+  "control": {
+    "Package": "ydict",
+    "Version": "2.2.2",
+    "Architecture": "aarch64",
+    "Maintainer": "ourgal",
+    "Homepage": "https://github.com/TimothyYe/ydict",
+    "Description": [
+      "Yet another command-line Youdao Chinese dictionary"
+    ]
+  }
+}
