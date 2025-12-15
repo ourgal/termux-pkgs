@@ -11,7 +11,7 @@ $(SUBDIRS):
 	termux-create-package $(CONF)
 
 src/go-jsonnet:
-	jq '.data_files."bin/$(CURRENT_DIR)".source = "result/bin/jsonnet" | .deb_dir = "input"' $(CONF) | sponge $(CONF)
+	jq '.data_files."bin/jsonnet".source = "result/bin/jsonnet" | .deb_dir = "input"' $(CONF) | sponge $(CONF)
 	nix build .#$(CURRENT_DIR)
 	termux-create-package $(CONF)
 
