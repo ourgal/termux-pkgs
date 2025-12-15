@@ -8,5 +8,20 @@
     "Description": [
       "Implementation of Jsonnet in pure Go"
     ]
-  }
+  },
+  "data_files": {
+    "bin/jsonnet": {
+      "source": "result/bin/jsonnet"
+    },
+    "bin/jsonnetfmt": {
+      "source": "result/bin/jsonnetfmt"
+    },
+    "bin/jsonnet-lint": {
+      "source": "result/bin/jsonnet-lint"
+    },
+    "bin/jsonnet-deps": {
+      "source": "result/bin/jsonnet-deps"
+    }
+  },
+  "deb_dir": "input"
 }
