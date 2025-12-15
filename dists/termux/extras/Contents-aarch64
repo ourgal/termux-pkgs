@@ -1,6 +1,9 @@
 data/data/com.termux/files/usr/bin/biome                                         biome
 data/data/com.termux/files/usr/bin/emacs-lsp-booster                             emacs-lsp-booster
 data/data/com.termux/files/usr/bin/jsonnet                                       go-jsonnet
+data/data/com.termux/files/usr/bin/jsonnet-deps                                  go-jsonnet
+data/data/com.termux/files/usr/bin/jsonnet-lint                                  go-jsonnet
+data/data/com.termux/files/usr/bin/jsonnetfmt                                    go-jsonnet
 data/data/com.termux/files/usr/bin/jsonfmt                                       jsonfmt
 data/data/com.termux/files/usr/bin/keep-sorted                                   keep-sorted
 data/data/com.termux/files/usr/bin/lefthook                                      lefthook
