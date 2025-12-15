@@ -1,0 +1,12 @@
+{
+  "control": {
+    "Package": "jsonnet-language-server",
+    "Version": "0.15.0",
+    "Architecture": "aarch64",
+    "Maintainer": "ourgal",
+    "Homepage": "https://github.com/grafana/jsonnet-language-server",
+    "Description": [
+      "Language Server Protocol server for Jsonnet"
+    ]
+  }
+}
