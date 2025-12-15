@@ -6,11 +6,11 @@ Installed-Size: 29772
 Homepage: https://biomejs.dev
 Description: Toolchain of the web
 Filename: dists/termux/extras/binary-aarch64/biome_2.2.4_aarch64.deb
-Size: 6869656
-MD5Sum: 3735919eb11326a844a7cb64d8f19fae
-SHA1: 978369860d24cb8c61b08146fdc0f2c9cf77ec51
-SHA256: 0f731dcfd6cbadbdb305bc2cfabc12bd489fd0b1ba1222d95a9a3002bd2537c2
-SHA512: af0f9fb85d33c0ed258d0c1e362c5782bdb4f5641e6307e8f0cf6153d854360bf846d24fff2c10b7f8385324062d4c22fea7baa1856fdcd68e9bc03759728aaa
+Size: 6871780
+MD5Sum: 73097a8ee679280955a3ace8d45e3903
+SHA1: f2a53b670a2a1c786cc51595ca85cd75782ae182
+SHA256: 57c56cae7c07c5a471a6435f7a18ff5652898162f2d6744b191d0f810819aac5
+SHA512: 81fbe578c007de02ac2c77fd045d7a67b60c6996fe8b5585591d4f66217c1f261045a15029e24b7d5df00807bb4dfc78389686e1e07f6190fe14df0048086ebd
 
 Package: emacs-lsp-booster
 Version: 0.2.1
@@ -20,11 +20,11 @@ Installed-Size: 1918
 Homepage: https://github.com/blahgeek/emacs-lsp-booster
 Description: Emacs LSP performance booster
 Filename: dists/termux/extras/binary-aarch64/emacs-lsp-booster_0.2.1_aarch64.deb
-Size: 552008
-MD5Sum: dd237d5a71b15a6393c11c1b13e4adaf
-SHA1: a2b30b5aecf83ff8a638898700ad886d2075f1ec
-SHA256: 923e10c8e97573953d1532d5c7dc051ad9f21ec1aec3beed8c8b8a844572de1d
-SHA512: 61df7d7a6499b77e1a3275cbb4cb855afab41c3f55220b2694580d962c7aa8eb4afe82682de661b62c877ed3dc752245c1cf082306836e4caec5554a19e1eaff
+Size: 551544
+MD5Sum: 757c8db6c1f8c25fb8bce9caa5416ee9
+SHA1: e11f9007827b93ffbda65e0b48c7ffc2815a6259
+SHA256: f6514bf56414caf6f6a9af6426805f71a208a7d2937bb397254f6c870a28b921
+SHA512: 1b2887a97db4ed8d1d7ca011ba562e88cbc567d8661c01b10d07b15db19e13d771cd2d5c73b3a1b7860b6865d41612f7a90cf8f8a420319e69d99c9f84c9f087
 
 Package: go-jsonnet
 Version: 0.21.0
@@ -34,11 +34,11 @@ Installed-Size: 20856
 Homepage: https://github.com/google/go-jsonnet
 Description: Implementation of Jsonnet in pure Go
 Filename: dists/termux/extras/binary-aarch64/go-jsonnet_0.21.0_aarch64.deb
-Size: 3046564
-MD5Sum: 58a205d379745d8bb0e1ade6dfabdad4
-SHA1: 0b5c1adc292e78e2151705108e3a2e6d33e6c994
-SHA256: 3da5b600e1389d575a2e255df0da612649800c180cf49b7d86ec4ae67f20304e
-SHA512: 05e96a1effb412fa5aa0ee23d28b9db7f7a4f340f535aa9b4fe3becebad941fd0fe56922f6fc53dd6324ed95776798ae98e06ea36b9e1c60ab0a8da3e04bdeff
+Size: 3052388
+MD5Sum: b275685590c92eda960d0715fda2ca57
+SHA1: 77fee7bb55a150693b7ba9e833100b844b3f607e
+SHA256: 48d9d90c70e717f2aecd02eb9fdab3304ee6068817c90570a8df6d86e3b51c98
+SHA512: 978faa0502db9c7e1f8ffd20112a3af3b326ead12d065dd197a5704384e6442afc66b3f45968fc77d2a993760f389bc3b6167980bc33354970cd654d1870a8b6
 
 Package: jsonfmt
 Version: 0.5.1
@@ -48,11 +48,25 @@ Installed-Size: 3951
 Homepage: https://github.com/caarlos0/jsonfmt
 Description: Like gofmt, but for JSON files.
 Filename: dists/termux/extras/binary-aarch64/jsonfmt_0.5.1_aarch64.deb
-Size: 1146720
-MD5Sum: 5a756fe60e19a6403cb483fd68a9237e
-SHA1: c5df52ce2a2334b0877ff3cb2697e60cb46fb5f1
-SHA256: 10869ab5709cf75a932884ef1a89e754782cd2141a1b0d6b5e30e32c513dd537
-SHA512: 66b7058b236c160aa1f87ed8f8c371e50f9390cf85c557bec7b6f5af93c73175f8ff6ce01e575a85a10223a7bc27114e154dc1aed4f1632294fdbc581834bdc6
+Size: 1147676
+MD5Sum: 2037599d5f922269e8f8e5da13681e61
+SHA1: 0df637258154643913e083222aab8f87a14f7956
+SHA256: 102ca3c712b62cfafb99fe3658444cd68ae572d40845b5f26851ebfbf1d01176
+SHA512: 409cd14be2b084e9b5fdb7c41e6ca8e5bfff8b5ddc920d2531c6bd3635f784fded0c3d436d0a88d1521ef994e7884be99c4d5a0f21cafb41d3dbbb454098eae7
+
+Package: jsonnet-language-server
+Version: 0.15.0
+Architecture: aarch64
+Maintainer: ourgal
+Installed-Size: 11781
+Homepage: https://github.com/grafana/jsonnet-language-server
+Description: Language Server Protocol server for Jsonnet
+Filename: dists/termux/extras/binary-aarch64/jsonnet-language-server_0.15.0_aarch64.deb
+Size: 2820548
+MD5Sum: 59bb385ee3cb5e8f9da9fbed1b5f25a3
+SHA1: 1ad5defd0c792c07c77cd3cc71e4173eece1bf85
+SHA256: 9f333b9bac44319b333792b809778cc03010c26e6dd8033c20c228e69b5d2f95
+SHA512: 6bcd145cc1d156e4c0666fa538717a53185406ad72d8df4dc63cd9ac5aa273368c12927f61b5590b3272652886c0d1541c0a052339274b1154921b4fb7ae8589
 
 Package: keep-sorted
 Version: 0.7.1
@@ -62,11 +76,11 @@ Installed-Size: 3053
 Homepage: https://github.com/google/keep-sorted
 Description: Language-agnostic formatter that sorts lines between two markers in a lar file
 Filename: dists/termux/extras/binary-aarch64/keep-sorted_0.7.1_aarch64.deb
-Size: 935264
-MD5Sum: 2fd1e7be8c203b1318138c61c8ea77f2
-SHA1: 59282c3a9aa9573064dc258a4f32cc7ddee4ace0
-SHA256: 84db642add123338c3ee85cb982e29c843c7498e64a2eacd3e78985999fe68dc
-SHA512: 787f4123e376b53d802deb0bda19c32ce09142f2f8945d90a1398fb27f4cbd0b2bddccc172bf002ceae228df4b80840ec590fdf2955ca4e7072e26356aaeb1cd
+Size: 935288
+MD5Sum: 015d9045b3881bb2139a706e1649e9fc
+SHA1: b84c46ada51ac12d2626c2758c722f4c7f1827ea
+SHA256: e1e7b589e244c604cba11ef366695b89eabca050001115594204bdc58d6a66aa
+SHA512: 88a90ba2737ecda7e7981089f69c2652754bb54c041ace8feda579f0858f1fe90fbfca43d7009379e8112025addbf7ec3224ab8b0a4153bbbae76ba0958afd8b
 
 Package: lefthook
 Version: 20250613
@@ -76,11 +90,11 @@ Installed-Size: 13764
 Homepage: https://github.com/evilmartians/lefthook
 Description: Fast and powerful Git hooks manager for any type of projects
 Filename: dists/termux/extras/binary-aarch64/lefthook_20250613_aarch64.deb
-Size: 3722784
-MD5Sum: 9dae8ca8334bb7e9fb2845b1b8a98f58
-SHA1: 28d332234af1427a418f3b137e476870d516fc12
-SHA256: 493c34b9c53bbf21760b755cda0653b2570592be0d3e1f8c28df2805ecea9903
-SHA512: 36552d74e93d4f3dca755b07bbb4355cf8af500b9bc9144e98870481bf112c9d0e3ff1ee077e25ca9075d83956be9f36b2dae836c4620f7f76b9b483ff02a643
+Size: 3723436
+MD5Sum: d011958e4f093b927a3fc194181edc20
+SHA1: da4c9e4bec03a32dd25ef66e6dd0aae1a9e0cbc2
+SHA256: 9ebe2334503a2b4b337709f839553ee81974138091c5b8c9d968d5be56f953c5
+SHA512: 3471874cf59fa0bba3ea4f966b7ddb763117965d61b96f21b2597c54775118bcce97bc577be5098b8faa3c653fd4b4d86e107dbc770ec2e5dce1fa0241bd6933
 
 Package: nil
 Version: 20250613
@@ -90,11 +104,11 @@ Installed-Size: 7503
 Homepage: https://github.com/oxalica/nil
 Description: Yet another language server for Nix
 Filename: dists/termux/extras/binary-aarch64/nil_20250613_aarch64.deb
-Size: 1980272
-MD5Sum: beee3bae1cf977599e530d776e8122f4
-SHA1: fb51d03795c210d543a1bbc6c7bf0149b267886f
-SHA256: 6882441ab089de5fd7ae16a925cc0099610b0a3963710a5a1a7327909d03c5c5
-SHA512: 49e3cffed46cef70ffa55263dc8d9628654f0596952f39e7d6ad42fe451a633b1f53a250554de90bb04f1885705e77614d0f7b338763f246109abb7f4a9acd0c
+Size: 1981068
+MD5Sum: 53e1091e57adde37258b63bfcfdb67ec
+SHA1: 6f7210767ad7e4215a7caf34d02ac22128ad424e
+SHA256: 48ed5b61d3f69cb86395147308e41f9367f62dd926f8618be0088884d1222c20
+SHA512: 33359e0ae9a47471fe34ba2d1d44ba9ddb73eb6b324918e0a9a3f5eaf913ecfa07914fd8eca1dba311825bc890ce933dd8b056d6b550757fe79f2c556e8db8ec
 
 Package: nixfmt
 Version: 1.0.0
@@ -104,11 +118,11 @@ Installed-Size: 5792
 Homepage: https://github.com/NixOS/nixfmt
 Description: Official formatter for Nix code
 Filename: dists/termux/extras/binary-aarch64/nixfmt_1.0.0_aarch64.deb
-Size: 1054820
-MD5Sum: 8b1db3e9bfffc5c58a32c6fd4135ca71
-SHA1: 81e8fb2fb2a37c5ba4878951deffe7b397b85719
-SHA256: a7762465d249e65dfec69c787377acf561510a2955ba0d5a9e35aad8eef94b1d
-SHA512: 8afffbbbe29df915fbf9dc2922789957c22ad770ed37cb27b3d4d2dfa99cf90d3e67d06e157e6b185479134480f7b6cc80f5117a72d3674486234eb3b8a29af4
+Size: 1054624
+MD5Sum: 09fe32b8bfd42927d19c2f28e46ca779
+SHA1: 4bd42b42d0281251d4aeda814d8c8a9eb1ad3fa1
+SHA256: c609b2c0fb3c78882dd085e162c45eceb443043d7f17ac67f313d65f6095a7b3
+SHA512: 9d38d40f2b66f36b6ef0a6919b036c60db23259b4f7891f6761fa3f424d6892cac893980f7e815225dc669be7378035aae6b77d25e51d004a88487888adc354d
 
 Package: yamlfmt
 Version: 0.17.2
@@ -118,9 +132,9 @@ Installed-Size: 4158
 Homepage: https://github.com/google/yamlfmt
 Description: An extensible command line tool or library to format yaml files.
 Filename: dists/termux/extras/binary-aarch64/yamlfmt_0.17.2_aarch64.deb
-Size: 1231020
-MD5Sum: 35b9ed4a091650708c69223910207ee0
-SHA1: 62a1335bf2c1bd07c1e74e41c255237438cc34ee
-SHA256: 544ed04df138e1df46dc65bfd9b9c357190b266f19ac218c196aca08d12ac48c
-SHA512: c05d84cf3dfa9d7243cb2d72da3a6b44471f04ef5c661e3b860b127b8dd3e129c11fcdef4bef6bc669339c1ea8b9c3ebbb0d9e0e514e7a1cafeaab749d12e963
+Size: 1231088
+MD5Sum: 9045a7d4b0b4ed671bb086541c48e09f
+SHA1: 738540fbd8db5e291f51b58ccfd195e58550e767
+SHA256: d9694d38c13089e8f36879777257fe6bae576c1be89e66e7f8e38b070e934f15
+SHA512: 90530a24dd8f5d6c2884af42b50afd24dc752731792cc990f03579d13abf84b1977df24865b46170060e8d8023d40027de8c83dc36eea1e89b689c4d74d226dd
 
