@@ -22,6 +22,8 @@ src/nixd: ;
 
 src/gitu: ;
 
+src/ydict: ;
+
 src/autotools-language-server: ;
 
 create-repo:
